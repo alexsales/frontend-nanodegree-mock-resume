@@ -1,4 +1,32 @@
-# The Resume Project
+
+
+# The (mock) Resume Project
+
+## Summary
+This (mock) Resume Project heavily uses JSON and other JavaScript objects to store data and functions. This project takes data within the JSON object to populate a sort of resume template where _%data%_ placeholders are replaced with strings.
+
+The html is then modified dynamically by manipulating and traversing the DOM.
+
+## Link to GitHub Repository (Master Branch)
+[http://alexsales.github.io/frontend-nanodegree-mock-resume/](http://alexsales.github.io/frontend-nanodegree-mock-resume/ "github project repository")
+
+## Tools / Techniques
+
+- JSON objects for data storage
+- plain JavaScript and jQuery for DOM manipulation and traversing
+- Google Maps API to display location data and pins
+- Chrome Developer Tools
+- Git and GitHub Pages
+- Markdown
+
+## List of Resources
+
+[https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "CSS Tricks - Guide to Flexbox")  
+[http://stackoverflow.com/questions/27420052/google-map-api-v3-maximum-call-stack-size-exceeded/](http://stackoverflow.com/questions/27420052/google-map-api-v3-maximum-call-stack-size-exceeded/ "Stack Overflow - Google Map API Max Call Stack Exceeded")  
+[https://www.atlassian.com/git/tutorials/](https://www.atlassian.com/git/tutorials/ "Atlassian Git Tutorials")  
+[https://developers.google.com/maps/documentation/javascript/maptypes#MapTypes](https://developers.google.com/maps/documentation/javascript/maptypes#MapTypes/ "Google Maps JavaScript API")  
+
+# Project Requirements
 
 ## How do I complete this project?
 
@@ -23,6 +51,7 @@ The GitHub readme file.
 * and some images in the images directory.
 
 ## Your starting point...
+
 ### js/helper.js
 Within helper.js, you’ll find a large collection of strings containing snippets of HTML. Within many snippets, you’ll find placeholder data in the form of `%data%` or `%contact%`.
 
@@ -38,11 +67,11 @@ The resume has four distinct sections: work, education, projects and a header wi
  * `education` contains an array of `schools`. Each `school` object in `schools` contains a `name`, `location`, `degree`, `majors` array, `dates attended` and a `url` for the school's website. `education` also contains an `onlineCourses` array. Each `onlineCourse` object in `onlineCourses` should contain a `title`, `school`, `dates attended` and a `url` for the course.
 2. Iterate through each JSON and append its information to index.html in the correct section.
  * First off, you’ll be using jQuery’s `selector.append()` and `selector.prepend()` functions to modify index.html. `selector.append()` makes an element appear at the end of a selected section. `selector.prepend()` makes an element appear at the beginning of a selected section.
-   * Pay close attention to the ids of the `<div>`s in index.html and the HTML snippets in helper.js. They’ll be very useful as jQuery selectors for `selector.append()` and `selector.prepend()`
-* You’ll also be using the JavaScript method `string.replace(old, new)` to swap out all the placeholder text (e.g. `%data%`) for data from your resume JSONs.
-* Here’s an example of some code that would add the location of one your companies to the page:
-   * `var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs[job].location);`
-   * `$(".work-entry:last").append(formattedLocation);`
+		* Pay close attention to the ids of the `<div>`s in index.html and the HTML snippets in helper.js. They’ll be very useful as jQuery selectors for `selector.append()` and `selector.prepend()`
+ * You’ll also be using the JavaScript method `string.replace(old, new)` to swap out all the placeholder text (e.g. `%data%`) for data from your resume JSONs.
+ * Here’s an example of some code that would add the location of one your companies to the page:
+		* `var formattedLocation = HTMLworkLocation.replace("%data%", work.jobs[job].location);`
+		* `$(".work-entry:last").append(formattedLocation);`
  * Use the mockup at the bottom of this document as a guide for the order in which you should append elements to the page.
 3. The resume includes an interactive map. To add it, append the googleMap string to `<div id=”map”>`.
 4. All of your code for adding elements to the resume should be within functions. And all of your functions should be encapsulated within the same objects containing your resume data. For instance, your functions for appending work experience elements to the page should be found within the same object containing data about your work experience.
