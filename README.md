@@ -1,5 +1,4 @@
 
-
 # The (mock) Resume Project
 
 ## Summary
@@ -7,8 +6,9 @@ This (mock) Resume Project heavily uses JSON and other JavaScript objects to sto
 
 The html is then modified dynamically by manipulating and traversing the DOM.
 
-## Link to GitHub Repository (Master Branch)
-[http://alexsales.github.io/frontend-nanodegree-mock-resume/](http://alexsales.github.io/frontend-nanodegree-mock-resume/ "github project repository")
+## Links to GitHub Repository (Master Branch)
+* GitHub Project Repository: [https://github.com/alexsales/frontend-nanodegree-mock-resume/](https://github.com/alexsales/frontend-nanodegree-mock-resume/ "GitHub project repository")
+* GitHub Pages Demo: [http://alexsales.github.io/frontend-nanodegree-mock-resume/](http://alexsales.github.io/frontend-nanodegree-mock-resume/ "GitHub Pages demo")
 
 ## Tools / Techniques
 
