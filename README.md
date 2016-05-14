@@ -11,7 +11,6 @@ The html is then modified dynamically by manipulating and traversing the DOM.
 * GitHub Pages Demo: [http://alexsales.github.io/frontend-nanodegree-mock-resume/](http://alexsales.github.io/frontend-nanodegree-mock-resume/ "GitHub Pages demo")
 
 ## Tools / Techniques
-
 - JSON objects for data storage
 - plain JavaScript and jQuery for DOM manipulation and traversing
 - Google Maps API to display location data and pins
@@ -20,7 +19,6 @@ The html is then modified dynamically by manipulating and traversing the DOM.
 - Markdown
 
 ## List of Resources
-
 [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ "CSS Tricks - Guide to Flexbox")  
 [http://stackoverflow.com/questions/27420052/google-map-api-v3-maximum-call-stack-size-exceeded/](http://stackoverflow.com/questions/27420052/google-map-api-v3-maximum-call-stack-size-exceeded/ "Stack Overflow - Google Map API Max Call Stack Exceeded")  
 [https://www.atlassian.com/git/tutorials/](https://www.atlassian.com/git/tutorials/ "Atlassian Git Tutorials")  
@@ -29,7 +27,6 @@ The html is then modified dynamically by manipulating and traversing the DOM.
 # Project Requirements
 
 ## How do I complete this project?
-
 1. If you need a refresher on JavaScript syntax, go to the [Javascript Basics course](https://www.udacity.com/course/viewer#!/c-ud804-nd); if you would like to understand how this project is manipulating and traversing the DOM, check out [Intro to jQuery](https://www.udacity.com/course/ud245-nd).
 2. Go through the videos and assignments in this course to learn the JavaScript necessary to build your resume.
 3. Review your work against the Project Rubric (on the next page).
